@@ -50,6 +50,11 @@
               <% end %>
             </li>
             <li>
+              <% link_to "/team.html" do %>
+                <i class="fa fa-users"></i> Team
+              <% end %>
+            </li>
+            <li>
               <% link_to "/contact.html" do %>
                 <i class="fa fa-envelope-o"></i> Contact
               <% end %>
@@ -68,5 +73,29 @@
     </nav>
 
     <%= yield %>
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-right">
+              <p>
+                Stylus is a fictive product by the incredible Me
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>

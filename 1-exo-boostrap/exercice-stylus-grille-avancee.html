@@ -1,26 +1,47 @@
----
-title: Welcome to Stylus
----
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Stylus</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stylesheets/home-exercice.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
 
   <div id="banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-6">
-        <h1>Styl.us</h1>
-        <p>
-          Turn your pen into your best friend
-        </p>
-        <p>
-          Make every line you write count...
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <h1>Styl.us</h1>
+          <p>
+            Turn your pen into your best friend
+          </p>
+          <p>
+            Make every line you write count...
+          </p>
 
-        <a href="#" class="btn btn-primary btn-lg">GET YOUR STYLUS</a>
-        <a href="#" class="btn btn-newly">Just a kiss</a>
+          <a href="#" class="btn btn-primary btn-lg">GET YOUR STYLUS</a>
+        </div>
+        <div class="col-xs-6"></div>
       </div>
-      <div class="col-xs-6"></div>
     </div>
-  </div>
-
   </div>
 
   <div class="bg-blue padded">
@@ -29,7 +50,7 @@ title: Welcome to Stylus
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="card">
-              	<%= image_tag "paper.svg" %>
+                <img src="images/paper.svg" alt="">
                 <h2>Natural writing</h2>
                 <p>
                   Don't change your habits, write with a pen <strong>on paper notebooks</strong>
@@ -38,7 +59,7 @@ title: Welcome to Stylus
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="card">
-                <%= image_tag "computer.svg" %>
+                <img src="images/computer.svg" alt="">
                 <h2>Sync. copy</h2>
                 <p>
                   Stylus instantaneously copy your text on your computer, <strong>in real-time</strong>
@@ -47,7 +68,7 @@ title: Welcome to Stylus
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="card">
-          	<%= image_tag "analytics.svg" %>
+            <img src="images/analytics.svg" alt="">
             <h2>Analytics</h2>
             <p>
               Get feedbacks on the way you write, your favorite words, <strong>your frequent mistakes</strong>
@@ -56,7 +77,7 @@ title: Welcome to Stylus
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="card">
-          	<%= image_tag "data.svg" %>
+            <img src="images/data.svg" alt="">
             <h2>Storing your texts</h2>
             <p>
               Everything line writen with your stylus is stored in the cloud, so that <strong>it's never lost</strong>
@@ -104,3 +125,34 @@ title: Welcome to Stylus
       </script>
     </div>
 
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-right">
+              <p>
+                Stylus is a fictive product by the incredible Me
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

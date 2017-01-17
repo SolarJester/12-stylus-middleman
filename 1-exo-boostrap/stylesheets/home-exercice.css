@@ -1,0 +1,30 @@
+@import url("banner-exercice.css");
+@import url("footer-exercice.css");
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #141414;
+}
+
+.bg-blue {
+	background: rgba(52, 152, 219, 1);
+	color: white;
+}
+.card {
+ 	font-weight: 300;
+}
+.card h2 {
+	font-size: 20px;
+}
+.card p {
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.padded {
+ 	padding: 6em;
+}
+#map {
+	margin-top: 20px;
+	border-top: 3px solid grey;
+}

@@ -1,0 +1,18 @@
+#footer {
+	background: rgb(30, 30, 30);
+	color: white;
+	padding: 50px 20px;
+}
+
+#footer a {
+	font-size: 30px;
+	color: grey;
+	letter-spacing: 10px;
+	transition: color 0.5s ease;
+}
+#footer a:hover {
+	color: red;
+}
+#footer p {
+	color: grey;
+}
